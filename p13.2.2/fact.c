@@ -22,7 +22,7 @@ int main()
     }
     printf("Required facorial is: %lu\n", ulngFact);
     printf("Do you want to continue? (Y/N): ");
-    scanf("%c",&ch);
+    scanf(" %c",&ch);
   }while((ch=='y')||(ch=='Y'));         /* outer do-while loop ends */
   printf("Do you want to continue? (Y/N): ");
 
