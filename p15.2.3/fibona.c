@@ -20,7 +20,7 @@ int main()
     lngB=1;
     for(intK=1; intK<= intN; intK++){
       if(intK==1) printf("the 1st fab number is: %ld\n",lngA);
-      else if(intK==2) printf("the second fab number is: %ld\n",lngB);
+      else if(intK==2) printf("the 2nd fab number is: %ld\n",lngB);
       else{
         printf("the %dth fab number is: %ld\n",intK,lngA+lngB);
         lngC= lngA+lngB;
