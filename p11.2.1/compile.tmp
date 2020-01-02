@@ -1,0 +1,9 @@
+./n.sum.c:43:3: warning: implicit declaration of function 'itoa' is invalid in C99 [-Wimplicit-function-declaration]
+  itoa(newAdd,newAddStr,10); /* transform the INTEGER newadd to string newAddStr under base10 */                              /* using itoa function from stdlib.h */ 
+  ^
+1 warning generated.
+Undefined symbols for architecture x86_64:
+  "_itoa", referenced from:
+      _updateAddString in n-61906f.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
